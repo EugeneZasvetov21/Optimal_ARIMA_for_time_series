@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Output data and logs
+*.log
+*.xlsx~  # временные копии Excel
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+*.sublime-*
+
+# Local configuration files
+.env
+*.local
+
+# Large output files (если есть)
+*.pkl
+*.h5
+*.parquet
